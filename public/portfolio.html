@@ -99,15 +99,7 @@
                   </div>
                   <div class="sk-title">JavaScript</div>
                 </div>
-                <div class="skill">
-                  <div class="sk-progress">
-                    <svg>
-                      <circle cx="75" cy="75" r="68" />
-                    </svg>
-                    <h2 class="counter"><span data-target="37">0</span>%</h2>
-                  </div>
-                  <div class="sk-title">Python</div>
-                </div>
+
                 <div class="skill">
                   <div class="sk-progress">
                     <svg>
@@ -152,6 +144,24 @@
                     <h2 class="counter"><span data-target="60">0</span>%</h2>
                   </div>
                   <div class="sk-title">MongoDB</div>
+                </div>
+                <div class="skill">
+                  <div class="sk-progress">
+                    <svg>
+                      <circle cx="75" cy="75" r="68" />
+                    </svg>
+                    <h2 class="counter"><span data-target="51">0</span>%</h2>
+                  </div>
+                  <div class="sk-title">TypeScript</div>
+                </div>
+                <div class="skill">
+                  <div class="sk-progress">
+                    <svg>
+                      <circle cx="75" cy="75" r="68" />
+                    </svg>
+                    <h2 class="counter"><span data-target="37">0</span>%</h2>
+                  </div>
+                  <div class="sk-title">Python</div>
                 </div>
               </div>
             </div>
@@ -201,6 +211,9 @@
               <button class="nav-btn" data-filter="website">Websites</button>
               <button class="nav-btn" data-filter="clone">Clones</button>
               <button class="nav-btn" data-filter="react">React</button>
+              <button class="nav-btn" data-filter="typescript">
+                TypeScript
+              </button>
               <button class="nav-btn" data-filter="python">Python</button>
             </nav>
           </div>
@@ -289,6 +302,42 @@
                 </div>
               </div>
             </div>
+            <div class="card" data-category="react">
+              <div class="card-content">
+                <img src="./assets/qr.JPG" alt="Thumbnail" />
+                <div class="overlay">
+                  <div class="card-info">
+                    <h3 class="card-title">React app</h3>
+                    <p class="card-description">
+                      This is a web application that allows users to generate QR
+                      codes from URLs.
+                    </p>
+                    <div class="button-container">
+                      <button class="expand-button" data-modal-id="modal5">
+                        Expand
+                      </button>
+                      <a
+                        href="https://github.com/ducacar/qr-code-generator"
+                        target="_blank"
+                        class="btn"
+                        >GitHub</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="modal5" class="modal">
+              <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <img
+                  src="./assets/qr.JPG"
+                  alt="Enlarged Website Image"
+                  class="modal-image"
+                />
+              </div>
+            </div>
+
             <div class="card" data-category="website">
               <div class="card-content">
                 <img
@@ -385,7 +434,7 @@
                 />
               </div>
             </div>
-            <div class="card" data-category="clone">
+            <div class="card" data-category="typescript">
               <div class="card-content">
                 <img src="./assets/etsyscrapper.JPG" alt="Thumbnail" />
                 <div class="overlay">
@@ -420,6 +469,7 @@
                 />
               </div>
             </div>
+
             <div class="card" data-category="clone">
               <div class="card-content">
                 <img src="./assets/img4.JPG" alt="Cloned Website Thumbnail" />

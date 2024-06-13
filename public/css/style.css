@@ -26,7 +26,6 @@
   box-sizing: border-box;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -318,7 +317,6 @@ body.open .hamburger .bar:last-child {
 .about .container {
   display: grid;
   grid-template-columns: 1.05fr 1fr;
-
 }
 
 .about .text {
@@ -579,8 +577,6 @@ body.open .hamburger .bar:last-child {
   margin: 0 auto;
 }
 
-
-
 .modal-close {
   position: absolute;
   top: 5px;
@@ -706,10 +702,7 @@ textarea.form-input {
 
   .btn.secondary-btn {
     font-size: 0.8rem;
-    
   }
-
- 
 
   .nav-btn {
     padding: 0.3rem 0.7rem;
@@ -749,9 +742,7 @@ textarea.form-input {
   }
 
   .website-grid {
-
     grid-template-columns: repeat(2, 1fr);
- ;
   }
 
   .contact .container {
@@ -955,8 +946,6 @@ textarea.form-input {
     max-height: 35%;
   }
 
-
-
   .contact .container {
     grid-template-columns: 1fr;
     row-gap: 3rem;
@@ -966,7 +955,6 @@ textarea.form-input {
     display: none;
   }
 }
-
 
 /* 500px screens */
 
@@ -978,8 +966,6 @@ textarea.form-input {
   .showcase-area .heading {
     font-size: 2.4rem;
   }
-
-
 }
 
 /* message css */
